@@ -1,3 +1,28 @@
+# travel-recommendation-app
+
+A travel recommendation app which recommends best cities to visit. Select a country to view the cities along with it's rating and description. At present 4 country options are there to select viz. India, Spain, France and Italy and displays four cities from each country accordingly. We'll be updating with more data soon. 
+
+# Sample input/output
+
+![image](https://user-images.githubusercontent.com/27736288/208902951-28857d10-ba7b-422e-a3b9-50e046a6ac8f.png)
+
+![image](https://user-images.githubusercontent.com/27736288/208903473-55a6cba2-0693-48b1-90c4-8a28167f10b8.png)
+
+![image](https://user-images.githubusercontent.com/27736288/208903550-4e396f54-a513-44e7-b8dd-1c8a75bff8d1.png)
+
+# Tech Stack
+
+* React
+* Netlify
+
+# Preview
+
+[View live](https://travel-recommendapp-gautam-balamurali.netlify.app/)
+
+# License
+
+[View license](https://github.com/gautam-balamurali/travel-recommendation/blob/master/LICENSE.md)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
