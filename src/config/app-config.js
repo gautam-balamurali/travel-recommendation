@@ -66,7 +66,7 @@ const COUNTRY_DICTIONARY = {
       city_name: "Bordeaux",
       rating: "8/10",
       description:
-        "Bordeaux, hub of the famed wine-growing region, is a port city on the Garonne River in southwestern France. It’s known for its Gothic",
+        "Bordeaux, hub of the famed wine-growing region, is a port city on the Garonne River in southwestern France. It’s known for its Gothic.",
     },
     {
       city_name: "Marseille",
