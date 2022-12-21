@@ -1,38 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+:root {
+  --primary: #4f46e5;
+  --secondary: #eef2ff;
+}
+
 .App {
+  font-family: "Montserrat", sans-serif;
+  margin: 0px auto;
+  background-color: var(--secondary);
+  color: var(--primary);
+  text-align: center;
+  width: 100%;
+}
+
+.user-avatar {
+  padding: 2rem;
+  padding-top: 5rem;
+  color: var(--dark-grey);
+  display: block;
+}
+
+.user-avatar img {
+  max-width: 80%;
+  width: 550px;
+  display: block;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.header {
+  background-color: var(--primary);
+  padding: 1rem 0rem;
+  color: var(--secondary);
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.section {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
+  min-height: calc(100vh - 4rem - 4rem);
 }
 
-.App-link {
-  color: #61dafb;
+.country-btn-inactive {
+  color: var(--secondary);
+  background-color: var(--primary);
+  width: max-content;
+  min-width: 140px;
+  border-radius: 0.5rem;
+  border-color: var(--primary);
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  margin: 1rem;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.country-btn-active {
+  color: var(--primary);
+  background-color: var(--secondary);
+  width: max-content;
+  min-width: 140px;
+  border-radius: 0.5rem;
+  border-color: var(--primary);
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.section-odd {
+  background-color: var(--primary);
+  color: var(--secondary);
+  padding: 2rem;
+  margin: 2rem;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.section-even {
+  color: var(--primary);
+  padding: 2rem;
+  margin: 2rem;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.section h2 {
+  text-align: center;
+  margin: 0.5rem;
+}
+
+.section p {
+  padding-bottom: 1rem;
+}
+
+.section ul {
+  list-style: none;
+  padding-inline-start: 0px;
+}
+
+h1 {
+  text-align: center;
+  padding: 0.5rem;
+}
+
+h3 {
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.container {
+  padding: 0rem 0rem;
+}
+
+.container-fluid {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.container-center {
+  max-width: 90%;
+  width: 100%;
+  margin: auto;
+}
+
+.container-footer {
+  margin: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  max-width: 600px;
+}
+
+.unordered {
+  list-style: none;
+}
+
+.list-inline li {
+  display: inline;
+  color: var(--secondary);
+  padding: 0rem 0.5rem;
+}
+
+.footer {
+  display: block;
+  background-color: var(--primary);
+  color: var(--secondary);
+  padding: 2rem 0rem;
+  text-align: center;
+}
+
+.footer .heading {
+  font-weight: bold;
+  font-size: larger;
+}
+
+.footer ul {
+  padding-inline-start: 0px;
+}
+
+.footer .link {
+  color: var(--secondary);
+}
+
+@media (max-width: 300px) {
+  .App {
+    font-size: small;
   }
 }
