@@ -1,6 +1,9 @@
 # travel-recommendation-app
 
-A travel recommendation app which recommends best cities to visit. Select a country to view the cities along with it's rating and description. At present 4 country options are there to select viz. India, Spain, France and Italy and displays four cities from each country accordingly. We'll be updating with more data soon. 
+* A travel recommendation app which recommends best cities to visit. 
+* Select a country to view the cities along with it's rating and description. 
+* At present 4 country options are there to select viz. India, Spain, France and Italy and displays four cities from each country accordingly. 
+* We'll be updating with more data soon. 
 
 # Sample input/output
 
